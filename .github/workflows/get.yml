@@ -2,7 +2,9 @@ name: Update Nodes API
 
 on:
   schedule:
-    - cron: '0 9 * * *'
+    # 分钟、小时、日期、月份、星期几
+    # - cron: '0 9 * * *'
+    - cron: '09 23 * * *'
   workflow_dispatch:
 
 jobs:
