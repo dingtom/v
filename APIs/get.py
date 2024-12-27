@@ -5,36 +5,29 @@ from datetime import datetime, timedelta
 # 导入yaml库，用于处理YAML格式的数据
 import yaml
 import logging
+import os
 
-logging.basicConfig(
-    level=logging.INFO,
-    format=&quot;%(asctime)s | %(levelname)s | %(module)s:%(funcName)s:%(lineno)d - %(message)s&quot;,
-    datefmt=&quot;%Y-%m-%d %H:%M:%S&quot;,
-)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 logger = logging.getLogger(__name__)
+if os.path.exists('get.log'):
+    os.remove('get.log')
+file_handler_new = logging.FileHandler('get.log')
+file_handler_new.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')  # 使用同样的格式化字符串
+file_handler_new.setFormatter(formatter)
+logger.addHandler(file_handler_new)
 
-# 获取当前日期和时间
 current_date = datetime.now()
-# 将当前日期格式化为年（如2023）
 year = current_date.strftime('%Y')
-# 将当前日期格式化为月（如12）
 month = current_date.strftime('%m')
-# 将当前日期格式化为年月日（如20231208）
 day = current_date.strftime('%Y%m%d')
-# 获取昨天的日期
 yesterday_date = current_date - timedelta(days=1)
-# 将昨天的日期格式化为年月日（如20231208）
 y_day = yesterday_date.strftime('%Y%m%d')
 
 # 定义一个包含URLs的列表，这些URLs用于访问网络上的YAML和TXT文件
 urls = [
     # 使用f-string格式化字符串，插入年、月、日的值，构建URL
-    f"https://shareclash.github.io/uploads/{year}/{month}/0-{day}.yaml", 
-    f"https://shareclash.github.io/uploads/{year}/{month}/1-{day}.yaml", 
-    f"https://shareclash.github.io/uploads/{year}/{month}/2-{day}.yaml", 
-    f"https://shareclash.github.io/uploads/{year}/{month}/3-{day}.yaml", 
-    f"https://shareclash.github.io/uploads/{year}/{month}/4-{day}.yaml", 
     f"https://clashgithub.github.io/uploads/{year}/{month}/0-{day}.txt", 
     f"https://clashgithub.github.io/uploads/{year}/{month}/1-{day}.txt", 
     f"https://clashgithub.github.io/uploads/{year}/{month}/2-{day}.txt", 
@@ -60,7 +53,7 @@ def gets():
                     # 将解析后的数据写入文件
                     with open(file_name, 'w', encoding='utf-8') as file:
                         yaml.dump(data, file, allow_unicode=True)
-                    print(f"YAML content from {url} saved to {file_name}")  # 打印保存成功的信息
+                    logger.debug(f"YAML content from {url} saved to {file_name}")  # 打印保存成功的信息
                 # 否则，处理TXT文件
                 else:
                     file_name = f"cg{i-5}.txt"  # 定义文件名
@@ -68,13 +61,13 @@ def gets():
                     # 将解码后的文本写入文件
                     with open(file_name, 'w', encoding='gbk') as file:
                         file.write(decoded_text)
-                    print(f"Text content from {url} saved to {file_name}")  # 打印保存成功的信息
+                    logger.debug(f"Text content from {url} saved to {file_name}")  # 打印保存成功的信息
             # 如果响应状态码不是200，打印失败信息
             else:
-                print("Failed to fetch content from URL:", url)
+                logger.info(f"Failed to fetch content from URL: {url}")
         # 捕获并打印任何异常信息
         except Exception as e:
-            print("An error occurred:", e)
+            logger.error("An error occurred:", e)
 
 # 调用gets函数执行
 gets()
