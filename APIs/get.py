@@ -4,6 +4,15 @@ import requests
 from datetime import datetime, timedelta
 # 导入yaml库，用于处理YAML格式的数据
 import yaml
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format=&quot;%(asctime)s | %(levelname)s | %(module)s:%(funcName)s:%(lineno)d - %(message)s&quot;,
+    datefmt=&quot;%Y-%m-%d %H:%M:%S&quot;,
+)
+
+logger = logging.getLogger(__name__)
 
 # 获取当前日期和时间
 current_date = datetime.now()
@@ -37,7 +46,7 @@ urls = [
 def gets():
     # 遍历urls列表中的每个URL
     for i, url in enumerate(urls):
-        print(f"Processing URL: {url}")
+        logger.info(f"Processing URL: {url}")
         try:
             # 发送GET请求到URL，verify=False表示不验证SSL证书
             response = requests.get(url, verify=False)
