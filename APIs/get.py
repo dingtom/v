@@ -30,9 +30,9 @@ day = current_date.strftime('%Y%m%d')
 yesterday_date = current_date - timedelta(days=1)
 y_day = yesterday_date.strftime('%Y%m%d')
 
-import os
-os.environ['HTTP_PROXY'] = 'http://127.0.0.1:10809'
-os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:10809'
+#import os
+#os.environ['HTTP_PROXY'] = 'http://127.0.0.1:10809'
+#os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:10809'
 
 urls = [
     "https://bulinkbulink.com/freefq/free/master/v2",
