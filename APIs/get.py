@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore")
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 logger = logging.getLogger(__name__)
-log_path = './APIs/get.log'
+log_path = 'get.log'
 if os.path.exists('get.log'):
     os.remove('get.log')
 file_handler_new = logging.FileHandler(log_path, mode='w')
