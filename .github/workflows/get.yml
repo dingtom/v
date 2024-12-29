@@ -31,7 +31,7 @@ jobs:
     - name: Check for changes
       run: |
         git status
-        if [[ $(git status --porcelain APIs/nodefree.txt APIs/nodeshare.txt APIs/cg0.txt APIs/cg1.txt APIs/cg2.txt APIs/cg3.txt APIs/cg4.txt APIs/sc0.yaml APIs/sc1.yaml APIs/sc2.yaml APIs/sc3.yaml APIs/sc4.yaml) ]]; then
+        if [[ $(git status --porcelain APIs/1.txt) ]]; then
           git add .
           git status
           git commit -m "ddd Update files"
