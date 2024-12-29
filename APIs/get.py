@@ -35,6 +35,7 @@ y_day = yesterday_date.strftime('%Y%m%d')
 #os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:10809'
 
 urls = [
+    "https://raw.githubusercontent.com/SamanGho/v2ray_collector/refs/heads/main/base64",
     "https://bulinkbulink.com/freefq/free/master/v2",
     "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
     "https://proxy.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
@@ -48,7 +49,11 @@ urls = [
     f"https://shareclash.github.io/uploads/{year}/{month}/2-{int(day)-1}.txt",
     f"https://shareclash.github.io/uploads/{year}/{month}/3-{int(day)-1}.txt",
     f"https://shareclash.github.io/uploads/{year}/{month}/4-{int(day)-1}.txt", 
+    "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
     "https://fs.v2rayse.com/share/20241229/veowliarr5.txt",
+    "https://testingcf.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.txt",
+    
+    "https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray.txt",
     "https://raw.githubusercontent.com/a2470982985/getNode/main/v2ray.txt",
     "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt",
     "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.txt",
@@ -57,7 +62,6 @@ urls = [
     "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodefree.txt",
     "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/v2rayshare.txt",
     "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/wenode.txt",
-    "https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray.txt",
 ]
 
 
@@ -114,6 +118,7 @@ def gets():
         except Exception as e:
             logger.error(f"Error URL: {url}, Error: {e}")
             return
+        available_servers = set(available_servers)
         with open('1.txt', "w") as file:
             for server in available_servers:
                 file.write(server + "\n")
