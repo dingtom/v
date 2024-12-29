@@ -118,8 +118,8 @@ def gets():
         except Exception as e:
             logger.error(f"Error URL: {url}, Error: {e}")
             return
-        available_servers = set(available_servers)
-        with open('1.txt', "w") as file:
-            for server in available_servers:
-                file.write(server + "\n")
+    available_servers = set(available_servers)
+    with open('1.txt', "w") as file:
+        for server in available_servers:
+            file.write(server + "\n")
 gets()
