@@ -35,6 +35,7 @@ y_day = yesterday_date.strftime('%Y%m%d')
 #os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:10809'
 
 urls = [
+    "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
     "https://raw.githubusercontent.com/SamanGho/v2ray_collector/refs/heads/main/base64",
     "https://bulinkbulink.com/freefq/free/master/v2",
     "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
