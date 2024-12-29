@@ -121,6 +121,9 @@ def gets():
             return
     available_servers = set(available_servers)
     with open('1.txt', "w") as file:
-        for server in available_servers:
+        for server in available_servers[:500]:
+            file.write(server + "\n")
+    with open('2.txt', "w") as file:
+        for server in available_servers[500:]:
             file.write(server + "\n")
 gets()
