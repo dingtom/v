@@ -1,28 +1,32 @@
-2024-12-29 15:23:10,089 - INFO - Processing URL: https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
-2024-12-29 15:23:10,130 - INFO - Processing URL: https://raw.githubusercontent.com/SamanGho/v2ray_collector/refs/heads/main/base64
-2024-12-29 15:23:10,259 - INFO - Processing URL: https://bulinkbulink.com/freefq/free/master/v2
-2024-12-29 15:23:11,138 - INFO - Processing URL: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
-2024-12-29 15:23:11,170 - INFO - Processing URL: https://proxy.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
-2024-12-29 15:23:11,386 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/0-20241229.txt
-2024-12-29 15:23:11,479 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/1-20241229.txt
-2024-12-29 15:23:11,557 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/2-20241229.txt
-2024-12-29 15:23:11,624 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/3-20241229.txt
-2024-12-29 15:23:11,687 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/4-20241229.txt
-2024-12-29 15:23:11,750 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/0-20241228.txt
-2024-12-29 15:23:11,814 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/1-20241228.txt
-2024-12-29 15:23:11,886 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/2-20241228.txt
-2024-12-29 15:23:11,947 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/3-20241228.txt
-2024-12-29 15:23:12,006 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/4-20241228.txt
-2024-12-29 15:23:12,152 - INFO - Processing URL: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
-2024-12-29 15:23:12,268 - INFO - Processing URL: https://fs.v2rayse.com/share/20241229/veowliarr5.txt
-2024-12-29 15:24:10,135 - INFO - Failed to fetch content from URL: https://fs.v2rayse.com/share/20241229/veowliarr5.txt
-2024-12-29 15:24:10,135 - INFO - Processing URL: https://testingcf.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.txt
-2024-12-29 15:24:10,278 - INFO - Processing URL: https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray.txt
-2024-12-29 15:24:10,314 - INFO - Processing URL: https://raw.githubusercontent.com/a2470982985/getNode/main/v2ray.txt
-2024-12-29 15:24:10,366 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt
-2024-12-29 15:24:10,504 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.txt
-2024-12-29 15:24:10,611 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/ndnode.txt
-2024-12-29 15:24:10,711 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt
-2024-12-29 15:24:10,762 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodefree.txt
-2024-12-29 15:24:10,877 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/v2rayshare.txt
-2024-12-29 15:24:11,009 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/wenode.txt
+2024-12-31 01:55:41,387 - INFO - Processing URL: https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
+2024-12-31 01:55:41,426 - INFO - Processing URL: https://raw.githubusercontent.com/SamanGho/v2ray_collector/refs/heads/main/base64
+2024-12-31 01:55:41,574 - INFO - Processing URL: https://bulinkbulink.com/freefq/free/master/v2
+2024-12-31 01:55:42,320 - INFO - Processing URL: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+2024-12-31 01:55:42,352 - INFO - Processing URL: https://proxy.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+2024-12-31 01:55:42,509 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/0-20241231.txt
+2024-12-31 01:55:42,587 - INFO - Failed to fetch content from URL: https://shareclash.github.io/uploads/2024/12/0-20241231.txt
+2024-12-31 01:55:42,587 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/1-20241231.txt
+2024-12-31 01:55:42,631 - INFO - Failed to fetch content from URL: https://shareclash.github.io/uploads/2024/12/1-20241231.txt
+2024-12-31 01:55:42,632 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/2-20241231.txt
+2024-12-31 01:55:42,675 - INFO - Failed to fetch content from URL: https://shareclash.github.io/uploads/2024/12/2-20241231.txt
+2024-12-31 01:55:42,675 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/3-20241231.txt
+2024-12-31 01:55:42,714 - INFO - Failed to fetch content from URL: https://shareclash.github.io/uploads/2024/12/3-20241231.txt
+2024-12-31 01:55:42,715 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/4-20241231.txt
+2024-12-31 01:55:42,756 - INFO - Failed to fetch content from URL: https://shareclash.github.io/uploads/2024/12/4-20241231.txt
+2024-12-31 01:55:42,757 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/0-20241230.txt
+2024-12-31 01:55:42,800 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/1-20241230.txt
+2024-12-31 01:55:42,841 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/2-20241230.txt
+2024-12-31 01:55:42,919 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/3-20241230.txt
+2024-12-31 01:55:42,963 - INFO - Processing URL: https://shareclash.github.io/uploads/2024/12/4-20241230.txt
+2024-12-31 01:55:43,007 - INFO - Processing URL: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+2024-12-31 01:55:43,047 - INFO - Processing URL: https://fs.v2rayse.com/share/20241229/veowliarr5.txt
+2024-12-31 01:55:43,399 - INFO - Processing URL: https://testingcf.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.txt
+2024-12-31 01:55:43,451 - INFO - Processing URL: https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray.txt
+2024-12-31 01:55:43,632 - INFO - Processing URL: https://raw.githubusercontent.com/a2470982985/getNode/main/v2ray.txt
+2024-12-31 01:55:43,709 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt
+2024-12-31 01:55:43,810 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.txt
+2024-12-31 01:55:43,903 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/ndnode.txt
+2024-12-31 01:55:43,981 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt
+2024-12-31 01:55:44,058 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodefree.txt
+2024-12-31 01:55:44,147 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/v2rayshare.txt
+2024-12-31 01:55:44,243 - INFO - Processing URL: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/wenode.txt
